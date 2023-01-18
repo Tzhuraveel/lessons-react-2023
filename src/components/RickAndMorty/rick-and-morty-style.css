@@ -1,0 +1,38 @@
+.container__character{
+    width: 300px;
+    height: 470px;
+    margin: 5px;
+    background-color: mediumslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.shadow{
+    box-shadow: 1px 1px 10px 1px chartreuse;
+
+}
+.image__character{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.mini-block__information {
+    background-color: silver;
+    width: 200px;
+    border-radius: 5px;
+
+}
+.title__character{
+    background-color: silver;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.wrapper-character{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

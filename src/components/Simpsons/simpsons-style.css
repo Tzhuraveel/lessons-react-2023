@@ -1,0 +1,27 @@
+.container__simpson{
+    background-color: darkslategrey;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.information{
+    background-color: silver;
+    padding: 5px;
+    border-radius: 5px;
+}
+.image__simpson{
+    width: 140px;
+    height: 250px;
+
+}
+.wrapper-simpsons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
