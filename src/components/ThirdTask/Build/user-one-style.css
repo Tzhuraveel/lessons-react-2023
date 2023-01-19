@@ -1,0 +1,34 @@
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    box-shadow: 3px 3px 20px lightblue;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.end:hover{
+    background-color: lightblue ;
+}
+.end{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

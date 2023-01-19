@@ -1,0 +1,31 @@
+.post__container{
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 3px 3px 20px lightblue;
+
+}
+.post__container {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.number__user{
+    background-color: lightsteelblue;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
