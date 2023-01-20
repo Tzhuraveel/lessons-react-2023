@@ -5,7 +5,7 @@ const Rocket = ({item}) => {
 
 
 
-    if(static_fire_date_utc === null || !static_fire_date_utc.includes('2006')){
+    if(static_fire_date_utc === null || !static_fire_date_utc.includes('2020')){
 
         return (
             <div className='rocket__container'>
