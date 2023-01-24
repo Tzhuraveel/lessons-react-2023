@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+.users__wrapper{
+    width: 50%;
+    background-color: gainsboro;
+}
+.comments__wrapper{
+    width: 50%;
+    background-color: slategray;
+}
+.userForm{
+    margin-bottom: 60px;
+}
