@@ -1,6 +1,7 @@
 
 
 const User = ({user, setUserPost}) => {
+    console.log(user)
 
     const {id, name} = user
 
