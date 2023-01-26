@@ -1,0 +1,16 @@
+.container__comments{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container__father{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.container__post{
+    display: flex;
+    justify-content: center;
+}

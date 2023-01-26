@@ -1,0 +1,13 @@
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+}
+.container__header{
+    height: 60px;
+}
