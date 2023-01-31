@@ -1,0 +1,27 @@
+.container{
+    height: 70px;
+}
+.wrapper{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    background-color: slategray;
+}
+.ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+a{
+    color: honeydew;
+    text-decoration: none;
+}
