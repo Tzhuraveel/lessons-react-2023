@@ -4,4 +4,4 @@ export * from './Posts/Posts';
 export * from './Header/Header';
 export * from './Home/Home';
 export * from './Post/Post';
-export * from './Login/Login';
+export * from './Register/Register'

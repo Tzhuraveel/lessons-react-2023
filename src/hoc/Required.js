@@ -1,20 +1,17 @@
-import {Navigate, useLocation} from "react-router-dom";
-import {useMyContext} from "../hook/useMyContext";
+import {useMyContext} from "../hook";
+import {Navigate} from "react-router-dom";
 
 const Required = ({children}) => {
 
 
     const {user} = useMyContext();
 
-    const location = useLocation();
-
 
     if(!user){
-        return <Navigate to={'/login'} state={location}/>
+        return <Navigate to={'/register'}/>
     }
+
     return children
-
-};
-
+}
 
 export {Required};

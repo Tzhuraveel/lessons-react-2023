@@ -1,4 +1,4 @@
 import {useContext} from "react";
 import {MyContext} from "../hoc";
 
-export const useMyContext = () => useContext(MyContext);
+export const useMyContext = () => useContext(MyContext)

@@ -4,6 +4,8 @@ import css from './Header.module.css'
 
 const Header = () => {
 
+
+
     return (
         <div className={css.container}>
            <div className={css.wrapper}>
@@ -13,6 +15,8 @@ const Header = () => {
                    <li><NavLink to={'posts'}>POSTS</NavLink></li>
                    <li><NavLink to={'comments'}>COMMENTS</NavLink></li>
                </ul>
+           </div>
+           <div>
            </div>
         </div>
     );

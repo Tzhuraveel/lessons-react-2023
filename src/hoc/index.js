@@ -1,2 +1,2 @@
 export * from './MyProvider';
-export * from './Required'
+export * from './Required';

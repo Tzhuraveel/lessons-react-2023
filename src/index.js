@@ -9,11 +9,14 @@ import {MyProvider} from "./hoc";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+
+
 root.render(
-          <MyProvider>
-              <BrowserRouter>
-                  <App />
-              </BrowserRouter>
-          </MyProvider>
+        <MyProvider>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </MyProvider>
 );
 
