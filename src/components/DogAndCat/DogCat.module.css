@@ -1,0 +1,9 @@
+.container{
+    width: 600px;
+
+}
+.wrapper__list_animal{
+    justify-content: space-between;;
+    display: flex;
+    margin-top: 150px;
+}

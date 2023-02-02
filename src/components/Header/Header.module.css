@@ -1,0 +1,25 @@
+.container{
+    height: 70px;
+}
+.wrapper{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
