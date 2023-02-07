@@ -10,6 +10,7 @@ const DogAndCat = () => {
 
     const reducer = (state, action) => {
 
+
         switch (action.type){
             case 'CAT':
                 const sliceCat = state.cats.slice(-1);
@@ -18,7 +19,7 @@ const DogAndCat = () => {
             case 'DOG':
                 const sliceDog = state.dogs.slice(-1);
                 const idDog = sliceDog.length? sliceDog[0].idDog + 1: 0
-                return {...state,  dogs: [...state.dogs, {idDog, dog: action.payload}]}
+                return {...state, dogs: [...state.dogs, {idDog, dog: action.payload}]}
             default:
                 return {...state}
         }
@@ -34,10 +35,10 @@ const DogAndCat = () => {
             <DogAndCarForm dispatch={dispatch}/>
             <div className={css.wrapper__list_animal}>
                 <div>
-                    {state.cats && state.cats.map(value => <Cat key={value.idCat} item={value}/>)}
+                    {state.cats.map(value => <Cat key={value.idCat} item={value}/>)}
                 </div>
                 <div>
-                    {state.dogs && state.dogs.map(value => <Dog key={value.idDog} item={value}/>)}
+                    {state.dogs.map(value => <Dog key={value.idDog} item={value}/>)}
                 </div>
             </div>
 
