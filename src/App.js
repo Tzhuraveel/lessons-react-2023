@@ -1,9 +1,19 @@
+import {Route, Routes} from "react-router-dom";
+
+import {MainLayout} from "./layout";
+import {PostsPage, UsersPage} from "./pages";
 
 function App() {
-  return (
-    <div className="App">
 
-    </div>
+
+
+  return (
+        <Routes>
+            <Route path={'/'} element={<MainLayout/>}>
+                <Route path={'users'} element={<UsersPage/>}/>
+                <Route path={'posts'} element={<PostsPage/>}/>
+            </Route>
+        </Routes>
   );
 }
 
