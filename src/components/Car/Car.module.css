@@ -1,0 +1,11 @@
+.container__car{
+    background-color: darkslategrey;
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
