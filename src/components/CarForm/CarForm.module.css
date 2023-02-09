@@ -1,6 +1,8 @@
 .container__carForm{
 }
 .form{
+    padding: 10px;
+    background-color: darkcyan;
     margin-top: 10px;
     position: fixed;
     display: flex;

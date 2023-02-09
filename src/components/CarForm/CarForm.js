@@ -26,8 +26,8 @@ const CarForm = () => {
         }
     }, [updatedCar, setValue])
 
-    const create =  async (data) => {
-         await dispatch(carActions.createCar(data))
+    const create =   (data) => {
+          dispatch(carActions.createCar(data))
          reset()
     }
 

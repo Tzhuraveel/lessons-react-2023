@@ -20,9 +20,9 @@ const Cars = () => {
     return (
         <div className={css.container}>
             <div className={css.wrapper__cars}>
-                {cars.map(value => <Car key={value.id} car={value}/>)}
+                {cars && cars.map(value => <Car key={value.id} car={value}/>)}
             </div>
-            <div className={css.wrapper__carForm}>
+            <div>
                 <CarForm/>
             </div>
         </div>

@@ -1,9 +1,9 @@
-import {Cars} from "./components";
+import {CarsPage} from "./pages";
 
 function App() {
   return (
     <div className="App">
-      <Cars/>
+        <CarsPage/>
     </div>
   );
 }
