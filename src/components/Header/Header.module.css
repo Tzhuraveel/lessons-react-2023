@@ -1,0 +1,14 @@
+.Header{
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: darkslategrey;
+}
+.link{
+    margin: 5px 10px;
+}
+.link > a {
+    color: white;
+    text-decoration: none;
+}

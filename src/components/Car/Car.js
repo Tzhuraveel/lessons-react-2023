@@ -28,7 +28,6 @@ const Car = ({car}) => {
             <div>year: {year}</div>
             <button onClick={() => deleteCar(id)}>delete</button>
             <button onClick={() => update(car)}>update</button>
-
         </div>
     );
 };
