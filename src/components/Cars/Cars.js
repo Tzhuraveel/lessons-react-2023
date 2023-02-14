@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 
 import css from './Cars.module.css';
 import {carActions} from "../../redux/slices";
@@ -10,17 +10,26 @@ const Cars = () => {
 
     const dispatch = useDispatch();
 
-    const {cars} = useSelector(state => state.cars);
+    const [str, setStr] = useState();
+
+    const {cars, prev, next} = useSelector(state => state.cars);
+
 
     useEffect(() => {
-        dispatch(carActions.getAllCars())
-    }, [dispatch])
+
+        dispatch(carActions.getAllCars({page: str}))
+    }, [dispatch, str])
 
 
     return (
         <div className={css.container}>
+            <div>
+                <button disabled={!prev} onClick={() => setStr(prev.page)}>prev</button>
+                <button disabled={!next} onClick={() => setStr(next.page)}>next</button>
+
+            </div>
             <div className={css.wrapper__cars}>
-                {cars.map(value => <Car key={value.id} car={value}/>)}
+                {cars && cars.map(value => <Car key={value.id} car={value}/>)}
             </div>
             <div className={css.wrapper__carForm}>
                 <CarForm/>
