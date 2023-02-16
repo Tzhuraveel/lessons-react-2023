@@ -1,0 +1,11 @@
+{
+  "name": "lessons-react-2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "repository": "https://github.com/Tzhuraveel/lessons-react-2023.git",
+  "author": "Tzhuraveel <timofiyzhuravel2003@gmail.com>",
+  "license": "MIT"
+}
